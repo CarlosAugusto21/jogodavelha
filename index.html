@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <main>
+      <div class="title">
+        <h1>Jogo da Velha</h1>
+        <div class="line"></div>
+      </div>
+      <div class="board" data-board>
+        <div class="sell" data-sell></div>
+        <div class="sell" data-sell></div>
+        <div class="sell" data-sell></div>
+        <div class="sell" data-sell></div>
+        <div class="sell" data-sell></div>
+        <div class="sell" data-sell></div>
+        <div class="sell" data-sell></div>
+        <div class="sell" data-sell></div>
+        <div class="sell" data-sell></div>
+      </div>
+      <div class="result" data-result>
+        <p data-mensagem>X venceu!</p>
+        <button data-restart>Quer jogar novamente?</button>
+      </div>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
